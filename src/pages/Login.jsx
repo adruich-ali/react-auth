@@ -28,7 +28,7 @@ const Login = () => {
                     <div className="or">OR</div>
                 </div>
                 <div className="right">
-                    <input type="text" placeholder="Username" />
+                    <input type="text" placeholder="UserName" />
                     <input type="password" placeholder="Password" />
                     <button type="submit" className="submit">Login</button>
 
