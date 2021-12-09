@@ -1,17 +1,20 @@
 import React from 'react'
-import google from '../assets/google.png'
+import google1 from '../assets/google.png'
 import facebook from '../assets/facebook.png'
 import github from '../assets/github.png'
 
 
 const Login = () => {
+    const google = ()=>{
+        window.open("http://localhost:5000/auth/google");
+    }
     return (
         <div className="login">
             <h1 className="loginTitle">Chose You Login Method</h1>
             <div className="wrapper">
                 <div className="left">
-                    <div className="loginButton google">
-                        <img src={google} alt="google" className="icon"/>
+                    <div className="loginButton google" onClick={google}>
+                        <img src={google1} alt="google" className="icon"/>
                         Google
                     </div>
                     <div className="loginButton facebook">
